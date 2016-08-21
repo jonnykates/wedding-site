@@ -1,0 +1,40 @@
+.leaves-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.leaves-border__top-bottom {
+  z-index: 3;
+  background-image:
+    url('/assets/images/leaves1.png'),
+    url('/assets/images/leaves2.png')
+  ;
+  background-repeat:
+    repeat-x,
+    repeat-x
+  ;
+  background-position:
+    top left,
+    bottom left
+  ;
+}
+
+.leaves-border__left-right {
+  z-index: 2;
+  background-image:
+    url('/assets/images/leaves3.png'),
+    url('/assets/images/leaves4.png')
+  ;
+  background-repeat:
+    repeat-y,
+    repeat-y
+  ;
+  background-position:
+    top left,
+    top right
+  ;
+}

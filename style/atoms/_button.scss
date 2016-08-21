@@ -1,0 +1,13 @@
+.button {
+  border: 1px solid $off-white;
+  color: $off-white;
+  padding: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+
+  &:hover {
+    color: $off-black;
+    background-color: $off-white;
+  }
+}

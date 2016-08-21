@@ -1,0 +1,43 @@
+.section {
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 1px;
+  margin: 0;
+}
+
+#section__intro {
+  background-image: url('/assets/images/chapel.jpg');
+  background-repeat: none;
+  background-size: cover;
+  background-position: top center;
+}
+
+.section--full-height {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(28,13,10,.75);
+}
+
+.section__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section__ink-blue {
+  background-color: $ink-blue;
+  color: #fff;
+
+  h3, p, a {
+    color: $off-white;
+  }
+
+  h2 {
+    color: #fff;
+  }
+}

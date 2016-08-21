@@ -1,0 +1,16 @@
+.content-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.content-container--wide {
+  max-width: 800px;
+}
+
+.content-container--half {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

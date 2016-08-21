@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:700';
+
+@font-face {
+  font-family: SpellingNight;
+  src: url('/assets/fonts/SpellingNight.otf') format("opentype");
+}
+
+a {
+  text-decoration: none;
+  color: $orange;
+
+  &:hover {
+    color: darken($orange, 10%);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: SpellingNight;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: $sky-blue;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
+  color: $ink-blue;
+  text-transform: uppercase;
+}
+
+p, a, span {
+  font-family: 'Arvo', serif;
+}
+
+.header--off-white {
+  color: $off-white;
+}
+
+.header--sky-blue {
+  color: $sky-blue;
+}
+
+.names {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  color: $orange;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
