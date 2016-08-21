@@ -41,3 +41,15 @@
     color: #fff;
   }
 }
+
+.section__splash {
+  background-image: url('/assets/images/splash.png');
+  background-repeat: repeat;
+}
+
+.section__jonny-and-natalie {
+  background-image: url('/assets/images/jandn.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

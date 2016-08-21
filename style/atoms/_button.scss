@@ -1,10 +1,12 @@
 .button {
+  display: inline-block;
   border: 1px solid $off-white;
   color: $off-white;
   padding: 10px;
   font-size: 1rem;
   text-transform: uppercase;
   border-radius: 4px;
+  margin: 10px;
 
   &:hover {
     color: $off-black;
