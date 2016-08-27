@@ -9,7 +9,7 @@
   margin: 10px;
 
   &:hover {
-    color: $off-black;
+    color: $off-black !important;
     background-color: $off-white;
   }
 }

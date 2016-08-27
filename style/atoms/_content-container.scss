@@ -14,3 +14,9 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media all and (max-width: 760px) {
+  .content-container {
+    padding: 10%;
+  }
+}

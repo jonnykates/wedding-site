@@ -38,3 +38,13 @@
     top right
   ;
 }
+
+@media all and (max-width: 760px) {
+  .leaves-border__top-bottom {
+    background-size: 50%;
+  }
+
+  .leaves-border__left-right {
+    background-size: 10%;
+  }
+}
