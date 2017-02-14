@@ -46,6 +46,15 @@
   }
 }
 
+.section__sky-blue {
+  background-color: darken($sky-blue, 10%);
+  color: #fff;
+
+  h2, h3 {
+    color: $off-white;
+  }
+}
+
 .section__splash {
   background-image: url('../assets/images/splash.png');
   background-repeat: repeat;

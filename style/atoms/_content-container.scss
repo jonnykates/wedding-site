@@ -2,7 +2,11 @@
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 40px 20px;
+}
+
+.content-container--big-pad {
+  padding: 90px 20px;
 }
 
 .content-container--wide {
@@ -13,6 +17,18 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.content-half {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin: 2rem 0 1rem;
+  padding: 15px;
+
+  &:nth-child(2n) {
+    margin-left: -5px;
+  }
 }
 
 @media all and (max-width: 760px) {
