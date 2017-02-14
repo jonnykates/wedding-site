@@ -8,7 +8,7 @@
 }
 
 #section__intro {
-  background-image: url('/assets/images/chapel.jpg');
+  background-image: url('../assets/images/chapel.jpg');
   background-repeat: none;
   background-size: cover;
   background-position: top center;
@@ -40,15 +40,19 @@
   h2 {
     color: #fff;
   }
+
+  a:hover {
+    color: $orange;
+  }
 }
 
 .section__splash {
-  background-image: url('/assets/images/splash.png');
+  background-image: url('../assets/images/splash.png');
   background-repeat: repeat;
 }
 
 .section__jonny-and-natalie {
-  background-image: url('/assets/images/jandn.png');
+  background-image: url('../assets/images/jandn.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
