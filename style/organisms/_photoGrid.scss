@@ -1,9 +1,41 @@
 .photo-grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 60px 130px 40px 130px;
+  max-width: 1280px;
+  margin: 0 auto;
 
-  li {
-    border: 1px solid red;
-    list-style: none;
+  a {
+    width: 20%;
+    min-width: 200px;
+    flex-grow: 1;
+    // height: 200px;
+    margin: 10px;
+
+    img {
+      width: 100%;
+    }
+
+    &:hover {
+      img {
+        opacity: .8;
+      }
+    }
+  }
+}
+
+.viewAllPhotosButton {
+  margin-bottom: 130px;
+  @media (max-width: 700px) {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .photo-grid {
+    padding: 30px 60px;
   }
 }
